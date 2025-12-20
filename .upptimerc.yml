@@ -4,7 +4,7 @@ user-agent: nate1579
 
 sites:
   # === Twomey Business Sites ===
-  - name: Twomey PC Repair
+  - name: Twomey PC
     url: https://twomeypcrepair.com
 
   - name: Twomey Services
