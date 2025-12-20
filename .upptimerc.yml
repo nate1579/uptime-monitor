@@ -1,36 +1,186 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: nate1579  # Replace with your GitHub username
+repo: uptime-monitor  # Replace with your repo name
+user-agent: nate1579
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  # === Twomey Business Sites ===
+  - name: Twomey PC Repair
+    url: https://twomeypcrepair.com
+
+  - name: Twomey Services
+    url: https://twomeyservices.com
+
+  - name: Twomey PC Website Services
+    url: https://twomeypcwebsiteservices.com
+
+  - name: Twomey Tracker
+    url: https://twomeytracker.com
+
+  - name: Arkansas Computer
+    url: https://arkansas.computer
+
+  # === Client Sites ===
+  - name: 2ME Pythons
+    url: https://2mepythons.com
+
+  - name: Arkansas Marijuana Doctor
+    url: https://arkansasmarijuana.doctor
+
+  - name: Arkansas Termite
+    url: https://arkansastermite.com
+
+  - name: AZ Industries
+    url: https://azind.com
+
+  - name: CHHCA
+    url: https://chhca.com
+
+  - name: Comfort Keepers Ministry
+    url: https://comfortkeepersministry.org
+
+  - name: Crimson Tech Review
+    url: https://crimsontechreview.com
+
+  - name: Crystal Healing Hands
+    url: https://crystalhealinghands.com
+
+  - name: CVSID
+    url: https://cvsid.org
+
+  - name: Dannys Auto Body
+    url: https://dannysautobody.net
+
+  - name: EXP School Higher Edu
+    url: https://expschoolhigheredu.com
+
+  - name: FOD Buster
+    url: https://fodbuster.com
+
+  - name: FOD Master
+    url: https://fodmaster.com
+
+  - name: For Every Dog Rescue
+    url: https://foreverydogrescueinc.org
+
+  - name: Hey Maui
+    url: https://heymaui.com
+
+  - name: Highland Square Shopping
+    url: https://highlandsquareshopping.com
+
+  - name: Highland Twin Cinema
+    url: https://highlandtwincinema.com
+
+  - name: Lazer Graphics Plus
+    url: https://lazergraphicsplus.com
+
+  - name: Maui Paradise Vacations
+    url: https://mauiparadisevacations.com
+
+  - name: Nancy Steinbeck
+    url: https://nancysteinbeck.com
+
+  - name: Ninja Bids
+    url: https://ninjabids.com
+
+  - name: Ozark Quick Grill
+    url: https://ozarkquickgrill.com
+
+  - name: Patricia Clary
+    url: https://patriciaclary.com
+
+  - name: Pest and Termite Solutions
+    url: https://pestandtermitesolutions.com
+
+  - name: Rock Sweeper
+    url: https://rocksweeper.com
+
+  - name: Scheel Family Practice
+    url: https://scheelfamilypractice.com
+
+  - name: South Fork Health and Wellness
+    url: https://southforkhealthandwellness.com
+
+  - name: Spring River Drones
+    url: https://springriverdrones.com
+
+  - name: Spring River Health Wellness
+    url: https://springriverhealthwellness.com
+
+  - name: Spring River Law
+    url: https://springriverlaw.com
+
+  - name: SRACC
+    url: https://sracc.org
+
+  - name: The Gun Magnet
+    url: https://thegunmagnet.com
+
+  - name: The Mag Mount
+    url: https://themagmount.com
+
+  - name: The Pistol Mag
+    url: https://thepistolmag.com
+
+  - name: The Pistol Magnet
+    url: https://thepistolmagnet.com
+
+  - name: The Rose Trellis
+    url: https://therosetrellis.com
+
+  - name: Therapy Works Inc
+    url: https://therapyworksinc.com
+
+  - name: Tripler Bail Bonds
+    url: https://triplerbailbonds.com
+
+  - name: Tripler Pawn
+    url: https://triplerpawn.com
+
+  - name: Tripolion
+    url: https://tripolion.com
+
+  - name: Vape Vault Salem
+    url: https://vapevaultsalem.com
+
+  - name: Way Back to Wellness
+    url: https://waybacktowellness.com
+
+# Assign yourself to downtime issues
+assignees:
+  - nate1579  # Replace with your GitHub username
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  # Option 1: Custom domain (recommended)
+  cname: status.twomey.tech
+  
+  # Option 2: Use GitHub Pages URL instead (comment out cname above, uncomment below)
+  # baseUrl: /client-status
+  
+  name: Client Status
+  logoUrl: https://twomeypcrepair.com/wp-content/uploads/2023/09/Twomey-Logo.png  # Update with your actual logo
+  theme: dark
+  
+  # Custom branding with your colors
+  css: |
+    :root {
+      --color-accent: #E25F05;
+      --body-background-color: #232323;
+    }
+  
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Twomey PC Repair
+      href: https://twomeypcrepair.com
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  introTitle: "Client Website Status"
+  introMessage: "Real-time monitoring for all managed client websites. Issues are automatically tracked and resolved."
+
+# Don't delete short-lived issues (keeps better history)
+skipDeleteIssues: true
+
+# Commit settings
+commitMessages:
+  commitAuthorName: "Twomey Status Bot"
+  commitAuthorEmail: "status@twomeypcrepair.com"
