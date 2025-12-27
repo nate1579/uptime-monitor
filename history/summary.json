@@ -100,19 +100,19 @@
     "url": "https://2mepythons.com",
     "icon": "https://icons.duckduckgo.com/ip3/2mepythons.com.ico",
     "slug": "2-me-pythons",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 121,
-    "timeDay": 75,
-    "timeWeek": 121,
-    "timeMonth": 121,
-    "timeYear": 121,
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "99.47%",
+    "uptimeWeek": "99.92%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
+    "time": 120,
+    "timeDay": 94,
+    "timeWeek": 120,
+    "timeMonth": 120,
+    "timeYear": 120,
     "dailyMinutesDown": {
-      "2025-12-27": 0
+      "2025-12-27": 8
     }
   },
   {
