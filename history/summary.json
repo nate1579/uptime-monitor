@@ -120,19 +120,19 @@
     "url": "https://arkansasmarijuana.doctor",
     "icon": "https://icons.duckduckgo.com/ip3/arkansasmarijuana.doctor.ico",
     "slug": "arkansas-marijuana-doctor",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 337,
-    "timeDay": 562,
-    "timeWeek": 320,
-    "timeMonth": 337,
-    "timeYear": 337,
+    "status": "up",
+    "uptime": "99.92%",
+    "uptimeDay": "98.61%",
+    "uptimeWeek": "99.80%",
+    "uptimeMonth": "99.92%",
+    "uptimeYear": "99.92%",
+    "time": 343,
+    "timeDay": 501,
+    "timeWeek": 335,
+    "timeMonth": 343,
+    "timeYear": 343,
     "dailyMinutesDown": {
-      "2026-01-06": 0
+      "2026-01-06": 20
     }
   },
   {
