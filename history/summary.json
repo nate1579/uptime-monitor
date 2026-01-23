@@ -744,9 +744,9 @@
     "url": "https://therosetrellis.com",
     "icon": "https://icons.duckduckgo.com/ip3/therosetrellis.com.ico",
     "slug": "the-rose-trellis",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -755,7 +755,9 @@
     "timeWeek": 144,
     "timeMonth": 170,
     "timeYear": 165,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-01-23": 0
+    }
   },
   {
     "name": "Therapy Works Inc",
@@ -837,11 +839,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/vapevaultsalem.com.ico",
     "slug": "vape-vault-salem",
     "status": "up",
-    "uptime": "99.84%",
+    "uptime": "99.85%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.93%",
-    "uptimeYear": "99.84%",
+    "uptimeYear": "99.85%",
     "time": 127,
     "timeDay": 103,
     "timeWeek": 148,
